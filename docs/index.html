@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sitemap watch</title>
+<style>
+  :root { color-scheme: light dark; --line: #8884; --muted: #777; --accent: #0b6b5d; }
+  body { font: 16px/1.5 system-ui, sans-serif; max-width: 62rem; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.1rem; margin-top: 2rem; }
+  .muted { color: var(--muted); }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: .4rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: .85rem; color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  button, select, input { font: inherit; padding: .3rem .6rem; }
+  button { cursor: pointer; }
+  .bar { display: flex; gap: .5rem; flex-wrap: wrap; margin: .75rem 0; align-items: center; }
+  .bar input[type=search] { flex: 1; min-width: 12rem; }
+  .warn { border: 1px solid #c60; padding: .5rem .75rem; border-radius: 4px; margin: 1rem 0; }
+  td.url { word-break: break-all; }
+  .added { color: var(--accent); font-weight: 600; }
+  .removed { color: #b33; font-weight: 600; }
+  ul.files { padding-left: 1.2rem; }
+</style>
+</head>
+<body>
+<h1>Sitemap watch</h1>
+<p class="muted" id="status">Loading…</p>
+<div id="messages"></div>
+
+<h2>New and removed URLs</h2>
+<div class="bar">
+  <label>From <input id="from" type="date"></label>
+  <label>To <input id="to" type="date"></label>
+  <select id="change"><option value="">New and removed</option><option value="added" selected>New only</option><option value="removed">Removed only</option></select>
+  <select id="site"><option value="">All sites</option></select>
+</div>
+<div class="bar">
+  <input id="filter" type="search" placeholder="Filter by text in the URL">
+  <button id="dl">Download this view</button>
+  <a id="all" href="data/new_urls.csv" download>Download the full file</a>
+</div>
+<p class="muted" id="count"></p>
+<table id="rows">
+  <thead><tr><th>Date</th><th>Site</th><th>Change</th><th>URL</th></tr></thead>
+  <tbody></tbody>
+</table>
+
+<h2>Page text files</h2>
+<p class="muted">One file per month. Each row is a page: URL, date found, status, title, word count and cleaned text. Join to the list above on the URL column.</p>
+<ul class="files" id="files"></ul>
+
+<script>
+const $ = id => document.getElementById(id);
+const SHOW_LIMIT = 1000;
+let rows = [], shown = [];
+
+// Reads CSV text, including quoted fields that contain commas.
+function parseCsv(text) {
+  const out = []; let row = [], field = "", quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") {
+      if (c === "\r" && text[i + 1] === "\n") i++;
+      row.push(field); field = ""; if (row.some(Boolean)) out.push(row); row = [];
+    } else field += c;
+  }
+  if (field || row.length) { row.push(field); out.push(row); }
+  return out;
+}
+const toCsv = r => r.map(x => x.map(v => /[",\n]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v).join(",")).join("\n") + "\n";
+const el = (tag, text, cls) => { const e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; };
+
+function render() {
+  const q = $("filter").value.toLowerCase(), ch = $("change").value, st = $("site").value;
+  const from = $("from").value, to = $("to").value;
+  shown = rows.filter(r => (!ch || r[2] === ch) && (!st || r[1] === st) && (!q || r[3].toLowerCase().includes(q))
+    && (!from || r[0] >= from) && (!to || r[0] <= to));
+  const visible = shown.slice(0, SHOW_LIMIT);
+  $("count").textContent = shown.length + " of " + rows.length + " rows"
+    + (shown.length > SHOW_LIMIT ? " (showing the newest " + SHOW_LIMIT + "; narrow the filters or download the file for the rest)" : "");
+  const body = $("rows").tBodies[0]; body.replaceChildren();
+  for (const r of visible) {
+    const tr = el("tr");
+    tr.append(el("td", r[0]), el("td", r[1]), el("td", r[2], r[2]));
+    const td = el("td", undefined, "url"); const a = el("a", r[3]); a.href = r[3]; a.target = "_blank"; a.rel = "noopener"; td.append(a);
+    tr.append(td); body.append(tr);
+  }
+}
+
+async function init() {
+  let status = {};
+  try { const res = await fetch("data/status.json", { cache: "no-cache" }); if (res.ok) status = await res.json(); } catch {}
+  if (!status.last_checked) {
+    $("status").textContent = "No results yet. Run the “Daily sitemap check” workflow once from the Actions tab.";
+    return;
+  }
+  $("status").textContent = "Last checked " + status.last_checked
+    + (status.last_checked_at ? " (run started " + status.last_checked_at.replace("T", " ").replace("+00:00", " UTC") + ")" : "")
+    + ". " + (status.pending || 0) + " page" + (status.pending === 1 ? "" : "s") + " waiting for text.";
+
+  const list = (title, items) => {
+    if (!items || !items.length) return;
+    const box = el("div", undefined, "warn"); box.append(el("strong", title));
+    const ul = el("ul"); items.forEach(e => ul.append(el("li", e))); box.append(ul); $("messages").append(box);
+  };
+  list("The last check could not read some sitemaps:", status.errors);
+  list("Notices:", status.notices);
+
+  const files = $("files");
+  (status.text_files || []).slice().reverse().forEach(name => {
+    const li = el("li"); const a = el("a", name); a.href = "data/page_text/" + name; a.download = name; li.append(a); files.append(li);
+  });
+  if (!files.children.length) files.append(el("li", "None yet. Text appears after a run finds new URLs.", "muted"));
+
+  try {
+    const res = await fetch("data/new_urls.csv", { cache: "no-cache" });
+    if (res.ok) rows = parseCsv(await res.text()).slice(1).reverse();   // newest first
+  } catch {}
+  const sites = [...new Set(rows.map(r => r[1]))].sort();
+  $("site").append(...sites.map(s => new Option(s, s)));
+  render();
+}
+
+["filter", "change", "site", "from", "to"].forEach(id => $(id).addEventListener("input", render));
+$("dl").onclick = () => {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([toCsv([["date", "site", "change", "url"], ...shown.slice().reverse()])], { type: "text/csv" }));
+  a.download = "new_urls_view.csv"; a.click(); URL.revokeObjectURL(a.href);
+};
+init();
+</script>
+</body>
+</html>
