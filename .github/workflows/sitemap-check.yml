@@ -1,0 +1,53 @@
+name: Daily sitemap check
+
+on:
+  schedule:
+    - cron: "37 18 * * *"   # every day at about 18:37 UTC (18:37 UK in winter, 19:37 in summer)
+  workflow_dispatch:        # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+# If two runs overlap (for example a manual run close to a scheduled one), the second
+# waits for the first instead of clashing with it.
+concurrency:
+  group: sitemap-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # GitHub often starts scheduled runs late, sometimes after midnight. This dates a
+      # scheduled run by the evening slot it belongs to, not by when it happened to start.
+      # Any start between 18:00 UTC and 17:59 UTC the next day counts as that evening.
+      # Runs started by hand keep their real date.
+      - name: Work out the date to record
+        if: github.event_name == 'schedule'
+        run: echo "SITEMAP_DATE=$(date -u -d '18 hours ago' +%F)" >> "$GITHUB_ENV"
+
+      - name: Compare sitemaps
+        run: python monitor.py
+
+      # Visits the newly added URLs and saves their text. Runs even if a sitemap failed,
+      # and also works through any URLs left waiting from earlier runs.
+      - name: Fetch page text
+        if: always()
+        timeout-minutes: 45
+        run: python pagetext.py
+
+      # Runs even if an earlier step failed, so whatever was collected is still saved.
+      - name: Save results
+        if: always()
+        run: |
+          git config user.name "sitemap-watch"
+          git config user.email "actions@users.noreply.github.com"
+          git add snapshots state docs
+          git diff --cached --quiet || git commit -m "Sitemap check $(date -u +%F)"
+          git push
