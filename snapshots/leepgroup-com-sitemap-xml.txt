@@ -2,8 +2,11 @@ https://leepgroup.com
 https://leepgroup.com/about-us
 https://leepgroup.com/about-us/our-regions
 https://leepgroup.com/about-us/our-regions/bedfordshire
+https://leepgroup.com/about-us/our-regions/devon
 https://leepgroup.com/about-us/our-regions/east-midlands
 https://leepgroup.com/about-us/our-regions/liverpool
+https://leepgroup.com/about-us/our-regions/london
+https://leepgroup.com/about-us/our-regions/norfolk-suffolk
 https://leepgroup.com/about-us/our-regions/north-east
 https://leepgroup.com/about-us/our-regions/north-yorkshire
 https://leepgroup.com/about-us/our-regions/south-yorkshire
@@ -191,6 +194,7 @@ https://leepgroup.com/level-2-ai-productivity-for-the-workplace-short-course
 https://leepgroup.com/level-3-ai-applied-marketing-short-course
 https://leepgroup.com/meet-the-talent-team-leep
 https://leepgroup.com/microsoft-security-compliance-identity-fundamentals-course-leep
+https://leepgroup.com/nemsa/ai-automation-technician
 https://leepgroup.com/networking-cybersecurity-short-course-leep
 https://leepgroup.com/privacy-policy
 https://leepgroup.com/promotions/black-friday-sale

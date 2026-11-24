@@ -1120,6 +1120,7 @@ https://www.qa.com/course-catalogue/courses/configure-and-govern-entitlement-wit
 https://www.qa.com/course-catalogue/courses/configure-and-operate-microsoft-azure-virtual-desktop-az-140-maz140/
 https://www.qa.com/course-catalogue/courses/configure-secure-access-to-your-workloads-using-azure-virtual-networking-applied-skills-workshop-maz1002/
 https://www.qa.com/course-catalogue/courses/configure-siem-security-operations-using-microsoft-sentinel-applied-skills-workshop-msc5001/
+https://www.qa.com/course-catalogue/courses/configuring-and-managing-red-hat-openshift-networking-do282ls-do282ls/
 https://www.qa.com/course-catalogue/courses/configuring-big-ip-advanced-waf-web-application-firewall-175-tpf5n_big-awf-cfg/
 https://www.qa.com/course-catalogue/courses/configuring-big-ip-apm-access-policy-manager-v175-tpf5n_big-egw-apm/
 https://www.qa.com/course-catalogue/courses/configuring-big-ip-dns-formerly-gtm-v175-tpf5n_big-dns-i/
@@ -2646,8 +2647,6 @@ https://www.qa.com/resources/events/from-prompt-to-productivity-copilot-chat-ess
 https://www.qa.com/resources/events/from-prompt-to-productivity-copilot-chat-essentials/
 https://www.qa.com/resources/events/future-forward-discover-the-power-of-apprenticeships-with-qa-microsoft/
 https://www.qa.com/resources/events/generative-ai-essentials-on-aws-jan-2027/
-https://www.qa.com/resources/events/generative-ai-essentials-on-aws-june/
-https://www.qa.com/resources/events/generative-ai-essentials-on-aws-september/
 https://www.qa.com/resources/events/how-to-be-an-effective-mentor-meetup/
 https://www.qa.com/resources/events/how-to-plan-your-career-effectively-in-partnership-with-pathway-ctm/
 https://www.qa.com/resources/events/how-to-plan-your-career-effectively/

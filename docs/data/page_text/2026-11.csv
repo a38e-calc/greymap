@@ -794,3 +794,1227 @@ General
 Ten years on, Southampton Solent’s Spark building wins award for lasting design.
 
 22 October 2026"
+2026-11-24,2026-11-24T17:34:17+00:00,qa.com,https://www.qa.com/course-catalogue/courses/configuring-and-managing-red-hat-openshift-networking-do282ls-do282ls/,ok,Configuring and Managing Red Hat OpenShift Networking (DO282LS) (DO282LS),2048,"Let’s make it work for you
+
+Talk to us
+
+Get in touch
+
+- Home
+- Browse
+- IT
+- Configuring and Managing Red Hat OpenShift Networking (DO282LS) (DO282LS)
+
+Share
+Email Download LinkedIn Facebook Twitter
+
+New
+Infrastructure and Networking Software and DevOps
+
+# Configuring and Managing Red Hat OpenShift Networking (DO282LS)
+
+Get in touch to book
+
+From £3,180 + VAT
+
+Details
+
+Categories:
+
+Infrastructure and Networking Software and DevOps
+
+Level:
+
+Expert
+
+Code:
+
+DO282LS
+
+Exam:
+
+Not Applicable
+
+Classroom: 4 Days
+
+Overview What's included Dates Outline Learning outcomes Good to know
+
+## Overview
+
+This course provides an in-depth exploration of advanced OpenShift networking features, focusing on version 4.20. It is designed to help learners close skill gaps by mastering User Defined Networks (UDNs) for enhanced architectural flexibility, workload isolation, and virtual machine mobility. Through a combination of hands-on labs and real-world scenarios, participants will develop practical expertise in core OpenShift networking concepts, DNS management, ingress and egress traffic control, native BGP functionality, node networking, and network observability. The course also covers deploying and managing applications, configuring authentication and authorization, and implementing robust network security measures to support scalable, production-grade network solutions.
+
+## Prerequisites
+
+- Familiarity with Red Hat OpenShift platform concepts and basic administration
+- Experience with deploying and managing containerized applications
+- Understanding of Kubernetes resource management and cluster operations
+- Prior exposure to network fundamentals and security concepts is beneficial
+
+### Target audience
+
+- Platform administrators, system administrators, cloud administrators, and other IT professionals responsible for managing and maintaining application infrastructure
+- Enterprise architects, site reliability engineers, DevOps engineers, and related roles involved in designing infrastructure for applications
+
+## What's included
+
+Select your preferred way to learn:
+
+Classroom Bespoke
+
+### What is Classroom?
+
+Hands-on, instructor-led training delivered in a QA learning centre
+
+In-person training in a dedicated QA learning centre. Learners benefit from expert-led sessions, collaborative activities, and structured, hands-on workshops in a distraction-free environment. If you can’t attend in person, many classroom courses are also available to attend remotely.
+
+Classroom sessions can be arranged on request. Please contact your account manager to discuss availability in your region
+
+Best for: Individuals and teams who benefit from deep focus, direct interaction, and practical, hands-on learning.
+
+### What's included?
+
+4 Days instructor led course
+
+Exam: Not Applicable
+
+6 month free access to QA learning platform
+
+### Free 6-Month Access: Learning Platform Discovery plan
+
+Included FREE with every instructor‑led course
+
+Get free guided access to the QA Learning Platform. Assess your skills, explore in-demand topics, and understand which areas to focus on.
+
+Learn AI, Cloud, Data, and Leadership skills at your own pace.
+
+Put skills into practice with hands-on Labs and Simulabs.
+
+Validate knowledge and highlight gaps with skills assessments.
+
+### What is bespoke training?
+
+Custom instructor-led training designed by QA to fit your needs
+
+Tailored programmes built around your organisation’s goals, challenges, and skill levels. Delivered in the format that suits you to maximise relevance and impact.
+
+Best for: Organisations and teams looking to target specific business priorities and capabilities with QA subject matter expertise.
+
+Talk to us
+
+Find out more about the course:
+
+- Overview
+- What's included
+- Dates
+- Outline
+- Learning outcomes
+- Good to know
+
+## Dates
+
+No dates available?
+
+Can't find a date that fits? Need to train your whole team, explore classroom options, or looking for a discount?
+
+Speak to our Team
+
+## Outline
+
+Declarative Resource Management
+
+- Deploy and update applications using parameterized resource manifests tailored for different target environments
+- Utilize templates, kustomize, and helm to manage application deployment configurations
+- Manage application resources efficiently to support scalability and maintainability
+- Apply best practices for resource versioning and environment-specific customization
+
+Deploy Packaged Applications
+
+- Package applications for sharing and distribution using resource manifests
+- Deploy applications from pre-packaged resources to streamline deployment processes
+- Update packaged applications to accommodate changes in requirements or environments
+- Ensure consistency and reliability in application deployment across multiple clusters
+
+Authentication and Authorization
+
+- Configure authentication using the HTPasswd identity provider
+- Assign roles to users and groups to control access to cluster resources
+- Implement authorization policies to enforce security and compliance
+- Manage user and group permissions for both administrative and application-level access
+
+Network Security
+
+- Protect network traffic between applications within the cluster using network policies
+- Secure communication between internal and external applications
+- Implement strategies to minimize exposure of sensitive services
+- Monitor and enforce network security standards across the cluster
+
+Expose Non-HTTP/SNI Applications
+
+- Expose applications to external access without relying on an Ingress controller
+- Configure network access for applications using alternative methods
+- Address challenges associated with non-HTTP/SNI traffic exposure
+- Ensure secure and reliable connectivity for specialized application protocols
+
+Enable Developer Self-Service
+
+- Configure clusters to allow safe self-service by developers from multiple teams
+- Define policies to restrict or permit project provisioning based on organizational requirements
+- Support operational control by disallowing self-service where necessary
+- Balance developer autonomy with infrastructure governance
+
+Manage Kubernetes Operators
+
+- Install and update Operators managed by the Operator Lifecycle Manager
+- Utilize the Cluster Version Operator for cluster-wide updates
+- Monitor and maintain Operator health and functionality
+- Integrate Operators into application and infrastructure workflows
+
+Application Security
+
+- Run applications that require elevated or special privileges from the host operating system or Kubernetes
+- Address security considerations for privileged workloads
+- Implement controls to mitigate risks associated with elevated permissions
+- Ensure compliance with organizational security policies
+
+OpenShift Updates
+
+- Update OpenShift clusters to the latest supported versions
+- Minimize disruption to deployed applications during update processes
+- Plan and execute updates for Kubernetes operators and cluster components
+- Validate cluster health and application availability post-update
+
+### Exams and assessments
+
+Assessment for this course is based on practical application of skills through hands-on labs and real-world scenarios. Learners will demonstrate their ability to deploy, secure, and manage OpenShift networking features, as well as configure authentication, authorization, and application security. There is no formal exam included, but successful completion of the course may support preparation for related Red Hat certification exams.
+
+### Hands-on learning
+
+The course features extensive hands-on labs, allowing learners to apply concepts in a controlled environment. Participants will work through practical exercises covering application deployment, network configuration, security implementation, and cluster management. A 45-day extended access to the virtual lab environment is provided after course completion, enabling further practice and skill reinforcement.
+
+## Learning outcomes
+
+Delegates will learn how to:
+
+- Deploy and update applications using resource manifests, templates, kustomize, and helm for various environments
+- Configure authentication and authorization for users and applications, including the use of HTPasswd identity provider and role assignments
+- Protect network traffic within and outside the cluster using network policies and appropriate exposure methods
+- Manage ingress and egress traffic, including exposing non-HTTP/SNI applications without an Ingress controller
+- Enable and manage developer self-service for application projects while maintaining operational control where required
+- Install, update, and manage Kubernetes Operators using Operator Lifecycle Manager and Cluster Version Operator
+- Run applications requiring elevated or special privileges, ensuring application security and compliance
+- Update OpenShift clusters and Kubernetes operators with minimal disruption to deployed applications
+
+## Good to know
+
+### Why choose QA
+
+- Award-winning training, top NPS scores
+- Over 500,000 learners in 2024
+- Our training experts are industry leaders
+- Read more about QA
+
+#### Get in touch for pricing, team bookings and exclusive discounts
+
+#### Ready to book? Complete the form and a member of our team will be in touch shortly to discuss your options.
+
+#### Let’s make it work for you. Speak to one of our learning experts today.
+
+Are you a new or existing customer
+New Customer Existing Customer
+
+Let us know how we can help*
+
+What market sector is your business in?*
+
+Business Email Address*
+
+First Name*
+
+Last Name*
+
+Phone*
+
+Company Name*
+
+Country*
+
+Keep me up to date with QA news, events, blogs & exclusive offers.
+
+By submitting this form, you agree to QA processing your data in accordance with our Privacy Policy and Terms & Conditions. You can unsubscribe at any time by clicking the link in our emails or contacting us directly.
+
+## What our customers are saying
+
+“As the administrator, it’s critical for me to be able to demonstrate where their skills started and where they’ve increased, and that’s all proven by the assessments. It’s been really valuable to us because it checks all the boxes for what all my stakeholders care about, including me.”
+
+Jennifer Zaborowski
+
+Director of IT Learning & Development, Regeneron
+
+“I participated in an IT Project Management Workshop, and I have to say it was by some way, the most well organised, best presented, engaging, informative and inspiring workshop or training course I have been on with QA. The trainer’s willingness to spend his time and share his experience and resources with me were second to none, and I truly feel better prepared going forward in my career.”
+
+James
+
+QA learner
+
+Portfolio Director
+
+Rob Blincoe
+
+Portfolio Director – Cloud & Infrastructure
+
+Rob leads the strategic direction of the cloud and Infrastructure training portfolios, empowering organisations and individuals to build practical, scalable skills across Cloud, Hybrid, On-Premise and other platforms. He designs learning experiences that make cloud and Infrastructure adoption more accessible, efficient, and aligned to real-world business goals. Visit my page
+
+Need to know
+
+## Frequently asked questions
+
+### How can I create an account on myQA.com?
+
+There are a number of ways to create an account. If you are a self-funder, simply select the ""Create account"" option on the login page.
+
+If you have been booked onto a course by your company, you will receive a confirmation email. From this email, select ""Sign into myQA"" and you will be taken to the ""Create account"" page. Complete all of the details and select ""Create account"".
+
+If you have the booking number you can also go here and select the ""I have a booking number"" option. Enter the booking reference and your surname. If the details match, you will be taken to the ""Create account"" page from where you can enter your details and confirm your account.
+
+Find more answers to frequently asked questions in our FAQs: Bookings & Cancellations page.
+
+### How do QA’s virtual classroom courses work?
+
+Our virtual classroom courses allow you to access award-winning classroom training, without leaving your home or office. Our learning professionals are specially trained on how to interact with remote attendees and our remote labs ensure all participants can take part in hands-on exercises wherever they are.
+
+We use the WebEx video conferencing platform by Cisco. Before you book, check that you meet the WebEx system requirements and run a test meeting to ensure the software is compatible with your firewall settings. If it doesn’t work, try adjusting your settings or contact your IT department about permitting the website.
+
+### How do QA’s online courses work?
+
+QA online courses, also commonly known as distance learning courses or elearning courses, take the form of interactive software designed for individual learning, but you will also have access to full support from our subject-matter experts for the duration of your course.
+
+Once you have purchased the Online course and have completed your registration, you will receive the necessary details to enable you to immediately access it through our e-learning platform and you can start to learn straight away, from any compatible device. Access to the online learning platform is valid for one year from the booking date.
+
+All courses are built around case studies and presented in an engaging format, which includes storytelling elements, video, audio and humour. Every case study is supported by sample documents and a collection of Knowledge Nuggets that provide more in-depth detail on the wider processes.
+
+### When will I receive my joining instructions?
+
+Joining instructions for QA courses are sent two weeks prior to the course start date, or immediately if the booking is confirmed within this timeframe. For course bookings made via QA but delivered by a third-party supplier, joining instructions are sent to attendees prior to the training course, but timescales vary depending on each supplier’s terms. Read more FAQs.
+
+### When will I receive my certificate?
+
+Certificates of Achievement are issued at the end the course, either as a hard copy or via email. Read more here."
+2026-11-24,2026-11-24T17:34:18+00:00,law.ac.uk,https://www.law.ac.uk/about/press-releases/inside-the-case-ben-emmerson/,ok,Russia “ever-present danger” after Litvinenko murder warns KC | ULaw,960,"24 Nov 2026
+
+Ben Emmerson KC, a leading human rights barrister who acted for the Litvinenko family, brands Vladimir Putin a “common criminal dressed up as a head of state”.
+
+He describes Russian state-sponsored assassinations as a form of “asymmetrical warfare” against the West designed to de-stabilise their institutions.
+
+On the continuing threat from Russia: “It’s an ever-present danger in every respect.”
+
+On Putin, he says - recalling his opening speech at the public inquiry into Litvinenko’s death: “Putin is no more than a common criminal dressed up as a head of state.”
+
+On Russian state-sponsored assassinations: “It’s a form of asymmetrical warfare designed to destabilise the state and its institutions.”
+
+### NEW PODCAST SERIES: Inside the Case
+
+Eighth episode: ""The Poisoning of Alexander Litvinenko""
+
+Alexander Litvinenko died on November 23, 2006, in London, aged 43, after being poisoned with radioactive polonium-210.
+
+Twenty years on, the barrister who represented his widow warns that Russia remains an “ever-present danger” to the West.
+
+Ben Emmerson KC, who achieved the setting up of the public inquiry into Litvinenko’s murder, repeats his denunciation at that inquiry of Vladimir Putin as “no more than a common criminal dressed up as a head of state”.
+
+He warns that Russian state-sponsored assassinations form part of a wider strategy to destabilise Western nations and undermine their institutions.
+
+His comments come in the latest episode of The University of Law’s video podcast, Inside the Case, where he also criticises the West for its inconsistent stance towards Putin and warns of the dangers of undermining international law.
+
+His warnings come ahead of the 20th anniversary of Litvinenko’s death on November 23 and coincides with the publication of his widow Marina’s new memoir, A Life in Fragments: Our Love, His Murder, My Resistance, published by Bloomsbury on 5 November 2026.
+
+In it she talks of her struggle to secure justice and her aim for her husband’s murder to be seen as part of a wider pattern of attacks of opponents, extending beyond Russia’s borders.
+
+The 2016 public inquiry in London concluded that her husband was murdered by Andrei Lugovoy and Dmitry Kovtun, probably acting under the direction of the FSB - and that Putin probably approved the operation.
+
+In 2021 the European Court of Human Rights held Russia responsible for Litvinenko’s death and ordered it to pay Marina 100,000 Euros in damages - which has never been paid. The men identified as responsible have not faced any criminal trial. One has since died.
+
+Emmerson describes the battle Marina Litvenenko faced in securing a public inquiry - where she was at risk of legal costs that would mean she would lose her home.
+
+Theresa May, then Prime Minister, had refused the public inquiry. “She [Marina] was treated like a nuisance litigant at this point, and the government not only refused to conduct the inquiry, but they refused to agree a costs arrangement that would enable her to go into this without fear of having to pay a huge government bill.”
+
+The risk of costs “was being held against her over her head like a Sword of Damocles” and “being done deliberately to discourage her from going on with it.”
+
+But, he says, she was determined to go ahead. “Marina is an extraordinary woman. She was determined, obviously, but dignified and courageous every step of the way.
+
+“She told me at one point she couldn’t really move on with her life until she had, if you like, done justice to the man whom she loved, the love of her life, namely to pursue that question…. on whose orders was he killed? The very question that he himself had posed in his dying days.”
+
+The decision to assassinate Litvinenko, Emmerson says, was taken at the “very top of the state of the Russian Federation - and “fundamentally, it was a murder - albeit it was deeply embedded in international politics - it was “a murder of a man for his beliefs.”
+
+There was evidence, he adds, of Putin’s close relationship with one of the murderers: when evidence of his guilt became conclusive, Putin “called him in and pinned a medal for services to the motherland onto his chest.”
+
+On the opening day of the inquiry, when Emmerson had made his speech about Putin being a criminal dressed up as a head of state, within hours Russian fighter jets buzzed the coast of Cornwall, entering British airspace and then leaving.
+
+It was an unprecedented case, he recalls. “It was a carefully planned operation which had involved two or three visits to London. And once the isotope had been identified, it was possible for the police to trace the movements of these two individuals as though they were Hansel and Gretel leaving a trail behind them.”
+
+In the end, the proof turned on a collection of debris in the u-bend of a wash basin in a hotel bedroom because security cameras could prove there was only one person inside that room at that time. After the poisoning, the excess polonium had been poured down the sink and collected among the debris in the u-bend.
+
+“It’s often said that there’s one piece of evidence in a case that really everything turns on. It can often be something very apparently insignificant. And in a way, the dirt and the filth that went into this murder found its expression in the fact that the final key to proving their guilt was the dirty debris in the u-bend of a public [wash basin].”
+
+The case was a “life-changing experience for me”, he says, “where the stakes were as high as they could possibly be, with the client who earned my admiration and respect within the first meeting that we had. She’s the epitome of a person with dignity and courage.”"
+2026-11-24,2026-11-24T17:34:19+00:00,leepgroup.com,https://leepgroup.com/about-us/our-regions/devon,ok,Skills Bootcamps in Devon | Our Regions | Leep Talent,180,"# Skills Bootcamps in Devon
+
+IT Smart Technician Skills Bootcamp available for local residents across Devon.
+
+We're working in partnership with Devon County Council to deliver our IT Smart Technician Skills Bootcamp programme for eligible local residents.
+
+## Programmes available in Devon
+
+Take a look at the Skills Bootcamps we have available for eligible local residents in the Devon region:
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### IT Smart Technician Skills Bootcamp
+
+Master smart technology and IoT with our fully funded IT Smart Technician Bootcamp.
+
+Apply now
+
+## Tackling the digital skills shortage across Devon
+
+The funding provided by Devon County Council enables us to deliver our IT Smart Technician Skills Bootcamp programme for eligible local residents across the region.
+
+These programmes help our learners develop practical IT skills, build confidence and improve their employment prospects, whether they’re looking to enter the workforce, return to work or progress in their current career.
+
+By removing the cost barrier for eligible participants, this funding makes valuable digital training more accessible, helping local people gain the skills they need to succeed in an increasingly digital world."
+2026-11-24,2026-11-24T17:34:20+00:00,leepgroup.com,https://leepgroup.com/about-us/our-regions/london,ok,Digital Skills Courses in South Yorkshire | Our Regions | Leep Talent,383,"# Short courses & Skills Bootcamps in London
+
+Digital, IT and Cybersecurity short courses available for local residents across Greater London
+
+We're working in partnership with the Greater London Authority to deliver short, practical and online digital skills courses and Skills Bootcamps for eligible local residents.
+
+## Programmes available in London
+
+Take a look at the short digital courses and Skills Bootcamps we have available for eligible local residents in Greater London:
+
+Short CourseDigitalRemoteBeginnerFully Funded
+
+##### Digital Skills - Short Course
+
+Build digital confidence in 5 weeks with the Level 2 Digital Skills short course
+
+Apply now
+
+Short CourseDigitalRemoteBeginnerFully Funded
+
+##### Digital & Social Media Marketing Programme
+
+Learn digital strategy, content creation, SEO & analytics in just 4 weeks.
+
+Apply now
+
+Short CourseITRemoteBeginnerFully Funded
+
+##### Cyber & Network Support
+
+Gain cybersecurity skills in 3 weeks with the Level 2 Cyber & Network Support short course.
+
+Apply now
+
+Short CourseDigitalITRemoteIntermediateFully Funded
+
+##### Networking & Cybersecurity Short Course
+
+Build practical networking and cybersecurity skills with our fully funded Level 3 short course. Learn network security, ethical hacking and access control.
+
+Apply now
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### IT Technician Skills Bootcamp
+
+Start an IT career with a fully funded IT Technician Skills Bootcamp.
+
+Apply now
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### IT Smart Technician Skills Bootcamp
+
+Master smart technology and IoT with our fully funded IT Smart Technician Bootcamp.
+
+Apply now
+
+Skills BootcampHROnlineBeginnerFully Funded
+
+##### Entry to HR Skills Bootcamp
+
+Gain Level 3 HR skills in just 5 weeks with this fully funded Skills Bootcamp.
+
+Apply now
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### Data Technician Skills Bootcamp
+
+Learn Excel, SQL, Python, Power BI & Azure in 7 weeks. Fully funded for eligible learners.
+
+Apply now
+
+## Tackling the digital skills shortage across London
+
+The funding provided by the Greater London Authority enables us to deliver a range of short, funded digital skills courses and Skills Bootcamps for eligible local residents across the region.
+
+These programmes help our learners develop practical digital, cyber security and IT skills, build confidence and improve their employment prospects, whether they’re looking to enter the workforce, return to work or progress in their current career.
+
+By removing the cost barrier for eligible participants, this funding makes valuable digital training more accessible, helping local people gain the skills they need to succeed in an increasingly digital world."
+2026-11-24,2026-11-24T17:34:21+00:00,leepgroup.com,https://leepgroup.com/about-us/our-regions/norfolk-suffolk,ok,Skills Bootcamps in Norfolk & Suffolk | Our Regions | Leep Talent,217,"# Skills Bootcamps in the Norfolk & Suffolk
+
+Data and IT Skills Bootcamps available for local residents across Norfolk and Suffolk.
+
+We're working in partnership with the Norfolk and Suffolk Combined County Authority to deliver Skills Bootcamps for eligible local residents.
+
+## Programmes available in Norfolk and Suffolk
+
+Take a look at the Skills Bootcamps we have available for eligible local residents in Norfolk and Suffolk:
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### IT Technician Skills Bootcamp
+
+Start an IT career with a fully funded IT Technician Skills Bootcamp.
+
+Apply now
+
+Skills BootcampITRemoteBeginnerFully Funded
+
+##### Data Technician Skills Bootcamp
+
+Learn Excel, SQL, Python, Power BI & Azure in 7 weeks. Fully funded for eligible learners.
+
+Apply now
+
+## Tackling the digital skills shortage across Norfolk and Suffolk
+
+The funding provided by the Norfolk and Suffolk Combined County Authority enables us to deliver a range of Skills Bootcamps for eligible local residents across the region.
+
+These programmes help our learners develop practical data, digital and IT skills, build confidence and improve their employment prospects, whether they’re looking to enter the workforce, return to work or progress in their current career.
+
+By removing the cost barrier for eligible participants, this funding makes valuable digital training more accessible, helping local people gain the skills they need to succeed in an increasingly digital world."
+2026-11-24,2026-11-24T17:34:23+00:00,leepgroup.com,https://leepgroup.com/nemsa/ai-automation-technician,ok,AI & Automation Technician Programme (NEMSA),887,"# AI & Automation Technician Programme
+
+Remote 7 weeks (Full time) Fully Funded
+
+Start building the skills you need for a career in artificial intelligence, automation and data with our Level 3 AI & Automation Technician programme. Designed for people with little or no previous experience in technology, this programme introduces you to the tools and techniques used across the growing digital industry.
+
+You'll gain practical experience with data analysis, AI tools and automation, helping you build the knowledge and confidence to take your first steps towards a career in technology.
+
+Apply now Employer enquiry
+
+## Is this programme right for me?
+
+This course is designed for people interested in starting or changing careers into AI, automation, data or digital technology. Whether you're exploring a new career direction or looking to turn your interest in AI into practical skills, you'll develop a foundation to help you pursue opportunities in the industry.
+
+You don't need previous programming or technical experience, just an interest in technology and a willingness to learn.
+
+Learners should be:
+
+- Aged 19 or over
+- Employed, self-employed, changing careers, returning to work or unemployed within the last 12 months
+- Interested in AI, automation, data or digital technology
+- Able to access a PC or laptop and a reliable internet connection
+- Must reside in the Northeast area of England.
+
+## AI & Automation skills you'll gain
+
+During the Level 3 AI & Automation Technician programme, you'll develop practical skills and knowledge in:
+
+- Data fundamentals and working with information
+- Analysing and presenting data using Power BI and Tableau
+- Understanding automation and identifying repetitive tasks
+- Using generative AI and effective prompting techniques
+- Applying responsible AI principles
+- Using Python for basic data preparation and automation
+- Identifying opportunities to improve processes using AI and automation
+
+## Knowledge gained
+
+You'll develop an understanding of how AI, data and automation are used across modern businesses, including:
+
+- How data is collected, organised and checked for accuracy
+- How reports and visualisations help make information easier to understand
+- How automation can streamline repetitive processes
+- How generative AI tools work and how to get more useful results from them
+- The importance of privacy, security, bias and human oversight when using AI
+- How Python can support data preparation and simple automated tasks
+
+## Transferable skills
+
+Alongside your technical knowledge, you'll develop skills that can support your progression into digital and technology careers, including:
+
+- Problem-solving and analytical thinking
+- Identifying opportunities for improvement
+- Interpreting and presenting information
+- Evaluating AI-generated outputs
+- Understanding responsible technology use
+- Communicating ideas and recommendations clearly
+- Confidence using digital tools and technologies
+
+## Funding & How it works
+
+This programme is funded by the North East Mayoral Strategic Authority, meaning it’s available at no cost to you providing you meet our eligibility criteria.
+
+The AI & Automation Technician programme runs full-time over 7 weeks, Monday to Friday, 9:00am–5:00pm and is delivered remotely, allowing you to learn online with support from expert tutors.
+
+The programme is designed to help eligible learners develop practical skills and prepare for their next steps towards a career in AI, automation or data.
+
+To apply, complete the application form on this page. Our team will contact you to discuss your eligibility and provide information about the programme and upcoming start dates.
+
+What you'll learn
+
+## AI & Automation Technician – Course Content
+
+Apply now
+
+## Progression routes
+
+Completing the Level 3 AI & Automation Technician programme can help you take your next steps towards a career in AI, automation, data or digital operations.
+
+The skills you develop can support progression towards roles such as:
+
+- Junior Automation Technician
+- AI Support Assistant
+- Digital Operations Assistant
+- Junior Data Technician
+- Reporting Assistant
+- Process Improvement Assistant
+
+You may also choose to continue your development through further technical training or apprenticeships in areas such as data analysis, artificial intelligence, business analysis, software development or digital support.
+
+## Related courses
+
+If you don’t feel this particular course is right for you, we have other courses available that may be more suitable.
+
+View all courses
+
+##### IT Technician Programme
+
+Start an IT career with a fully funded IT Technician programme
+
+Apply now
+
+##### Data Technician Programme
+
+Learn Excel, SQL, Python, Power BI & Azure Fully funded for eligible learners.
+
+Apply now
+
+##### IT Smart Technician Programme
+
+Master smart technology and IoT with our fully funded IT Smart Technician programme
+
+Apply now
+
+##### Cyber Security Technician Programme
+
+Start a career in cybersecurity with our fully funded 7 week programme
+
+Apply now
+
+##### AI & Automation Technician Programme
+
+Start building the skills you need for a career in artificial intelligence, automation and data with our Level 3 AI & Automation Technician Programme
+
+Apply now
+
+## How it works
+
+If you’re new to apprenticeships, this is what you can expect once you’ve applied for the course.
+
+- Apply
+- Eligibility call
+- Enrol
+- Learn
+- Complete
+- Progression support
+
+# “Leep Talent was fabulous about the entire process, from the very start all the way towards getting me to the workplace.”
+
+Dharti Vyas - IT Apprentice
+
+From level 0 to 7, we’re here to help. Get in touch to discuss your needs and find the right programme for you.
+
+#### Get started today"
+2026-11-24,2026-11-24T17:34:24+00:00,makers.tech,https://makers.tech/https/makers.tech/ai-on-ramp,ok,AI On-Ramp | Graduate AI & Automation Training | Makers,2483,"# AI ON-RAMP
+
+# Built for the next generation of your workforce
+
+Turn your graduate intake into a new source of AI capability with accelerated, upfront training. Powered by the Level 4 AI & Automation Practitioner apprenticeship.
+
+Get in touch
+
+outcomes
+
+## Build faster. Build better. Build together.
+
+Engineering teams everywhere have access to AI code assistants. The difference is how they're used.
+
+### Build a shared AI playbook
+
+Turn individual wins into team-wide practice.
+
+### Steer AI more effectively
+
+Guide AI assistants towards smarter, more reliable code completions.
+
+### Improve quality at speed
+
+Increase test coverage and reduce manual effort.
+
+### Build modern engineering workflows
+
+Embed Spec-Driven Development and AI-assisted delivery practices.
+
+### Ship with confidence
+
+Use AI to accelerate delivery without compromising standards.
+
+Our results
+
+## Excellence Without Exception
+
+Excellence isn’t just a goal - it’s a non-negotiable standard at Makers. Regarded as the leading provider of tech education for over a decade, we’ve developed solutions that deliver unmatched results to some of the world’s most respected companies. Our proven track record ensures your workforce transformation is in the best hands.
+
+Explore case studies
+
+90%
+
+Learner satisfaction rate
+
+85%
+
+Reported confidence with AI
+
+15h+
+
+Saved per person per week
+
+Outcome
+
+## What will you learn?
+
+We don't just teach tools - we build confidence, shift perspectives, and lay the foundation for a more adaptive, AI-ready workforce.
+
+### Master AI fundamentals
+
+Prompt engineering, custom GPTs and AI agents to support research, analysis and content creation.
+
+### Apply AI to your own work
+
+Automate time-consuming tasks and free yourself for more enriching, high-impact work.
+
+### Drive responsible AI adoption
+
+Understand the ethics and risks of AI, and champion its responsible use across your organisation.
+
+### Build skills to get ahead
+
+Develop a ""learning toolkit"" for long-term adaptability - so you're ready to lead as AI becomes the norm.
+
+90
+
+Learner satisfaction rate
+
+85
+
+Reported confidence with AI
+
+15h+
+
+Saved per person per week
+
+96%
+
+Alumni say Makers transformed their lives
+
+AI ON-RAMP
+
+## Your graduates are entering a different world of work.
+
+70%
+
+of UK workers are in roles containing tasks that AI can perform or enhance. - IMF
+
+66%
+
+of business leaders say they wouldn’t hire someone without AI skills - Microsoft trend index
+
+Most graduate programmes were built before AI reshaped how work gets done. Why train new hires in yesterday’s ways of working, only to retrain them tomorrow?
+
+Funded by the Levy, AI On-Ramp embeds practical AI and automation skills from day one, so graduates don’t just learn how your organisation works, they learn how to make it work better.
+
+AI ON-RAMP
+
+## Your graduates are entering a different world of work.
+
+Most graduate programmes were built before AI reshaped how work gets done. Why train new hires in yesterday’s ways of working, only to retrain them tomorrow?
+
+Funded by the Levy, AI On-Ramp embeds practical AI and automation skills from day one—so graduates don’t just learn how your organisation works, they learn how to make it work better.
+
+66%
+
+of business leaders say they wouldn’t hire someone without AI skills - Microsoft trend index
+
+70%
+
+of UK workers are in roles containing tasks that AI can perform or enhance. - IMF
+
+Learning outcomes
+
+## By the end of the programme, your graduates will:
+
+### Deploy AI with excellence
+
+from prompting to building AI systems.
+
+### Build safely within guardrails
+
+applying your data, security, and governance rules from day one.
+
+### Create a common baseline
+
+bringing consistent AI language and workflows across teams.
+
+### Raise the bar
+
+inspiring and upskilling existing colleagues in the teams they join.
+
+### Keep adapting
+
+developing the Learning Quotient to evolve alongside AI tools.
+
+## Programme Details:
+
+### Duration:
+
+13 months + up to 3 months assessment (Accelerated learning model)
+
+### Funding:
+
+£18,000, funded by the Apprenticeship Levy
+
+### Who it’s for:
+
+Graduates across Operations, Finance, HR, Sales & Marketing, Customer, IT & Digital, and more
+
+### Delivery:
+
+Accelerated upfront training + ongoing applied learning in-role
+
+The Makers model
+
+## Our model is simple.
+
+1. We find collaborative people with high levels of grit and Learning Quotient.
+
+2. We build their problem-solving, people and technical (engineering and AI) skills.
+
+3. We focus on career switchers. Why? They aren't telling they are good at learning, they are showing us
+
+## The Makers Model
+
+Our model is simple:
+
+1
+
+We find collaborative people with high levels of grit and Learning Quotient.
+
+2
+
+We build their problem-solving, people and technical (engineering and AI) skills.
+
+3
+
+We focus on career switchers. Why? They aren't telling us they are good at learning, they are showing us.
+
+Why AI On-Ramp?
+
+## Build AI capability that compounds.
+
+### Day-one business value:
+
+Graduates apply AI and automation to live problems in their roles—saving time and rethinking workflows as they learn.
+
+### Cross-functional scale:
+
+Embed a shared, responsible baseline of AI capability across every business function, not just tech teams.
+
+### Repeatable growth:
+
+Run the programme with every annual intake so AI capability becomes built into how your workforce grows.
+
+WHY FORWARD DEPLOYED ENGINEER?
+
+## The new world of the FDE
+
+FDE is emerging as one of the breakout engineering roles of the AI era.
+
+800%
+
+increase in job postings for Forward Deployed Engineers in 2025.
+
+Source: Financial Times
+
+$7bn
+
+spent by leading tech firms (AWS, OpenAI, Microsoft) to embed FDEs into client environments.
+
+Source: CBNC, Dealroom (2026)
+
+100+
+
+companies have adopted the FDE role including OpenAI, Google, AWS and Salesforce.
+
+## Scarce talent, high demand.
+
+Forward Deployed Engineers are like Software Engineers were in the 2000s: scarce talent, high demand.
+
+At Makers, this is why we built our renowned software engineering bootcamp and recruit-train-deploy accelerator.
+
+### We knew these skills could be built, if we recruited learners with strong Learning Quotient (LQ).
+
+### We knew that people with strong LQ were better learners on-the-job. And they progressed twice as fast.
+
+### We knew that if you change someone’s life, they remain loyal - nearly no-one leaves.
+
+Makers approach
+
+## A new in-demand skillset
+
+Forward Deployed Engineers partner with clients to build and deploy AI systems into their businesses, reimagining business processes and making AI a core part of how those clients operate and innovate.
+
+FDEs are in high demand because they need a unique combination of skills and attributes to succeed:
+
+### Skills
+
+Problem-solving skills - to identify the key business opportunities that AI can impact and stay focused on the outcome.
+
+People skills - to collaborate with a range of client stakeholders and transform how the business works.
+
+Technical skills (Engineering and AI) - to build and deploy effective, scalable and secure solutions.
+
+### Attributes
+
+Learning Quotient - to learn and adapt, knowing AI is not going to stand still and every client will bring different contexts and challenges.
+
+Grit - to ensure every deployment is successful when no client journey will be either simple or repeatable.
+
+Outcome
+
+## What will I learn?
+
+We don’t just teach tools - we build confidence, shift perspectives, and lay the foundation for a more adaptive, AI-ready workforce.
+
+### Master AI fundamentals
+
+like prompt engineering, building custom GPTs and working with AI agents to support daily tasks like research, analysis and content creation.
+
+### Apply AI to your own work
+
+automating the time-consuming tasks and freeing yourself up for more enriching, complex work.
+
+### Drive responsible AI adoption
+
+by understanding the ethics and risks of AI, so you can promote its responsible use throughout your organisation.
+
+### Build the skills to get ahead
+
+and develop a “learning toolkit” for long-term adaptability. As AI becomes the norm, you’ll be ready to stand out and lead the change.
+
+SOFTWARE ENGINEERING TODAY
+
+## The developer is no longer the typist
+
+#### The developer is the architect - and increasingly, the organisation designer. AI is the executor.
+
+AI is changing what software engineers spend their time doing. Less time writing every line of code. More time designing how software is built, reviewed and improved. This is the shift towards harness engineering.
+
+Apply now
+
+What they'll learn
+
+## Course Structure
+
+### Engineering
+
+Learners will master software engineering fundamentals, able to build, manage and deploy code across the full software lifecycle.
+
+### Agentic AI
+
+Your Forward Deployed Engineers will learn to apply core AI engineering principles, architect agentic systems, and implement robust traceability and evaluation.
+
+### Forward Deployment
+
+Learners develop key skills to consult and uncover problems, build trust as a reliable advisor, and frame AI risks and solutions as jargon-free narratives for execs.
+
+Learn it. Apply it. Keep building.
+
+## CURRICULUM & JOURNEY
+
+AI moves too fast for theory-heavy training. Graduates move rapidly from the classroom into live workplace projects.
+
+1
+
+### AI Labs:
+
+Immersive, hands-on workshops combining expert teaching with live experimentation.
+
+2
+
+### 1:1 Coach Time:
+
+Dedicated ex-industry coaching to apply new skills directly to each graduate's role.
+
+3
+
+### Action Seminars:
+
+Cross-functional peer sessions to share wins, workflows, and lessons learned.
+
+90%
+
+learner satisfaction
+
+85%
+
+confidence
+
+15+hrs
+
+saved per person, per week
+
+CURRICULUM & JOURNEY
+
+## Learn it. Apply it. Keep building.
+
+AI moves too fast for theory-heavy training. Graduates move rapidly from the classroom into live workplace projects.
+
+### AI Labs
+
+Immersive, hands-on workshops combining expert teaching with live experimentation.
+
+### 1:1 Coach Time
+
+Dedicated ex-industry coaching to apply new skills directly to each graduate's role.
+
+### Action Seminars
+
+Cross-functional peer sessions to share wins, workflows, and lessons learned.
+
+90%
+
+learner satisfaction
+
+85%
+
+confidence
+
+15+ hrs
+
+saved per person, per week
+
+## Learning format
+
+Every session is built around your team's real work. Apply new techniques in your actual projects the same week you learn them.
+
+### Half-day sessions
+
+A new topic introduced each week in a focused half-day.
+
+### Apply in context
+
+Self-led practice in the reality of your role during the week.
+
+### Two-day intensive
+
+A Spec-Driven Development deep-dive followed by a mini hackathon.
+
+### Team reflection
+
+Review what worked, consolidate the shared playbook, and agree how to keep improving as a team.
+
+## Makers Approach
+
+### Designed for your team, not a generic cohort
+
+Closed cohort
+
+Every session uses your codebase, your architecture, your standards. There's no off-the-shelf version of this programme - it's scoped and tailored before day one.
+
+### Practice-first
+
+Learn by doing
+
+Engineers learn by applying new techniques to real work, not completing exercises. The week between sessions is where the actual learning happens - and peer review cements it.
+
+### The playbook stays with your team
+
+Built to last
+
+By the end, your team has a shared set of principles, practices and standards that belong to them - not a training programme they attended and then filed away.
+
+## Meet the AI team
+
+Stefan Bauer
+
+Stefan is a senior technology leader with experience across Amazon AWS, Bloomberg, and high-growth technology companies. He has led AI and data teams tackling complex business challenges at scale.
+
+At Makers, he helps leaders understand the AI opportunity and navigate the transition with confidence.
+
+AI Coach
+
+Neil Studd
+
+Neil has spent more than twenty years helping organisations build and deliver high-quality technology products.
+
+Since joining Makers in 2022, he has led curriculum development across Quality Engineering, Leadership and AI programmes.
+
+A long-time advocate for AI education, Neil helped introduce foundational AI learning across Makers programmes.
+
+AI Coach
+
+Allen Sanchez
+
+Allen has spent more than a decade helping teams build practical technology skills across software engineering, data, business transformation and AI.
+
+He’s worked with organisations across the UK, Europe and Asia Pacific - helping teams adopt new technologies and rethink how work gets done.
+
+Head of AI Coaching
+
+Josué Estévez Fernández
+
+Josué is a Makers graduate who went on to spend several years as a full-stack software engineer, before returning to Makers, this time to help shape how the next generation learns.
+
+Josué leads the curriculum team and is driving Makers' AI-first approach to curriculum design, rethinking how learning experiences are built for a world growingly shaped by AI.
+
+Head of AI Curriculum
+
+At a Glance
+
+## Overview
+
+Lorem ipsum odor amet, consectetuer adipiscing elit. Nullam netus nascetur id pharetra sociosqu tempor quam ridiculus. Sem accumsan senectus sociosqu erat condimentum. Risus tristique taciti scelerisque torquent ex duis.
+
+why makers
+
+## Market-leading results
+
+### Fanatical about quality
+
+We consistently top the leaderboard for apprenticeship results and achievement rate.
+
+### Committed to inclusivity
+
+We're addressing lower AI adoption among women - our 2024 learner profile was 46% diverse ethnicities and 40% women.
+
+### Expert and proprietary
+
+Our curriculum is built in-house and delivered by industry specialists.
+
+80%
+
+of Makers apprentices achieved merits or distinctions in 2024.
+
+96%
+
+of Makers Alumni said we transformed their life.
+
+84%
+
+Apprenticeship achievement (completion) rate vs the industry average of 59%.
+
+ABOUT THE COURSE
+
+## Curriculum
+
+### Tooling:
+
+We can apply our curriculum to a range of AI tooling including Microsoft Copilot, Google Gemini, Claude (Anthropic), ChatGPT (OpenAI). Our most popular tools:
+
+Microsoft Copilot: Teams will need
+Microsoft 365 Copilot licenses with access to Copilot Studio.
+
+Google Gemini: Teams will need Google
+Gemini Pro with access to Google Workspace Studio.
+
+TBC
+
+## The makers approach
+
+### Coaches and Curriculum
+
+#### Aligned to business outcomes
+
+Our coaches aren’t just great educators - they’ve led teams in top tech environments. We tailor training to your organisation’s goals, using real-world case studies, role-specific development and delivery formats shaped around your teams. It’s training designed to work where it matters: inside your business.
+
+### Beyond skills
+
+#### Adaptability for the AI age
+
+Technical skills evolve rapidly - even faster in an AI-driven economy. At Makers, we embed Learning Quotient (LQ) – the ability to learn, unlearn, and relearn – into everything we do. As roles shift, tools evolve, and job scopes blur, our learners stay sharp by building the one skill that never expires: the capacity to adapt and apply new knowledge.
+
+### Our support
+
+#### Doesn’t stop at training
+
+Our programmes are tough by design - self-led, immersive, and focused on real-world problem
+solving. But no one goes it alone. From expert
+coaches to career specialists to industry assessors, we invest more in support because we expect more from our learners.
+
+### Turning graduates into high-performers since 2012
+
+What began as an alternative to Deloitte’s traditional graduate route has become a mainstream pipeline for early-career talent.
+
+“Makers Accelerator is a conveyor belt of awesome. There's no other source of recruitment I'd put this much energy into.”
+
+Martin Aspeli
+Partner & COO, Deloitte Digital
+
+Deloitte outcomes
+
+94%
+
+offered permanent roles
+
+88%
+
+promoted within 12 months
+
+42%
+
+women
+
+### The Makers advantage
+
+12+ years
+
+closing tech skills gaps
+
+5,000+
+
+alumni
+
+75
+
+Employer NPS
+
+9/10
+
+AI learner satisfaction
+
+Proud to promote diversity, inclusion, and equal opportunity in tech.
+
+## Trusted by top companies to revolutionise their teams
+
+AI ON-RAMP
+
+## Don't retrofit AI skills later. Build them in from the start.
+
+Speak to our partnerships team about Levy funding and upcoming graduate cohort dates.
+
+contact@makers.tech
++44 (0)20 3817 8870"
