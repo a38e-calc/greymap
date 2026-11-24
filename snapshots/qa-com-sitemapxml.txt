@@ -2199,6 +2199,7 @@ https://www.qa.com/course-catalogue/products/
 https://www.qa.com/course-catalogue/products/apm-project-fundamentals-qualification-pfq-elearning-qapfqel/
 https://www.qa.com/course-catalogue/products/apm-project-management-qualification-pmq-elearning-qapmqel/
 https://www.qa.com/course-catalogue/products/apm-project-risk-certificate-level-1-elearning-qaprcel/
+https://www.qa.com/course-catalogue/products/apmg-international-better-business-cases-foundation-elearning-qabbcfel/
 https://www.qa.com/course-catalogue/products/apmg-project-planning-control-foundation-elearning-qappcfel/
 https://www.qa.com/course-catalogue/products/apmg-project-planning-control-practitioner-elearning-qappcpel/
 https://www.qa.com/course-catalogue/products/bcs-foundation-certificate-in-business-analysis-elearning-bafoundel/
@@ -2595,6 +2596,7 @@ https://www.qa.com/resources/events/accelerate-your-ai-career-l6-ai-machine-lear
 https://www.qa.com/resources/events/accelerate-your-skills-data-essentials-programme-insight-session/
 https://www.qa.com/resources/events/ace-your-apprenticeship-interview/
 https://www.qa.com/resources/events/agentic-ai-concepts-and-capabilities-in-action/
+https://www.qa.com/resources/events/agentic-ai-foundations-feb-2027/
 https://www.qa.com/resources/events/ai-agent-essentials-on-google-cloud/
 https://www.qa.com/resources/events/ai-and-future-careers/
 https://www.qa.com/resources/events/ai-apprenticeship-units-what-s-changing-and-what-it-means-for-you/
@@ -2643,6 +2645,7 @@ https://www.qa.com/resources/events/from-chaos-to-clarity-turning-messy-data-int
 https://www.qa.com/resources/events/from-prompt-to-productivity-copilot-chat-essentials-18-may-2026/
 https://www.qa.com/resources/events/from-prompt-to-productivity-copilot-chat-essentials/
 https://www.qa.com/resources/events/future-forward-discover-the-power-of-apprenticeships-with-qa-microsoft/
+https://www.qa.com/resources/events/generative-ai-essentials-on-aws-jan-2027/
 https://www.qa.com/resources/events/generative-ai-essentials-on-aws-june/
 https://www.qa.com/resources/events/generative-ai-essentials-on-aws-september/
 https://www.qa.com/resources/events/how-to-be-an-effective-mentor-meetup/

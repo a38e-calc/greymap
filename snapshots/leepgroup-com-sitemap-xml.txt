@@ -2,11 +2,8 @@ https://leepgroup.com
 https://leepgroup.com/about-us
 https://leepgroup.com/about-us/our-regions
 https://leepgroup.com/about-us/our-regions/bedfordshire
-https://leepgroup.com/about-us/our-regions/devon
 https://leepgroup.com/about-us/our-regions/east-midlands
 https://leepgroup.com/about-us/our-regions/liverpool
-https://leepgroup.com/about-us/our-regions/london
-https://leepgroup.com/about-us/our-regions/norfolk-suffolk
 https://leepgroup.com/about-us/our-regions/north-east
 https://leepgroup.com/about-us/our-regions/north-yorkshire
 https://leepgroup.com/about-us/our-regions/south-yorkshire
