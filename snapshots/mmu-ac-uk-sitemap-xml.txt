@@ -3301,6 +3301,7 @@ https://mmu.ac.uk/individual-profile/pari-tavati
 https://mmu.ac.uk/individual-profile/parmida-maghsoodlou-mahalli
 https://mmu.ac.uk/individual-profile/paryce-richards
 https://mmu.ac.uk/individual-profile/patricia
+https://mmu.ac.uk/individual-profile/patricia-ovuoke-oseh
 https://mmu.ac.uk/individual-profile/patrick-reihill
 https://mmu.ac.uk/individual-profile/paul-axon
 https://mmu.ac.uk/individual-profile/paul-butler
@@ -3599,6 +3600,7 @@ https://mmu.ac.uk/institute-for-childrens-futures/contact
 https://mmu.ac.uk/institute-for-childrens-futures/people
 https://mmu.ac.uk/institute-for-childrens-futures/research
 https://mmu.ac.uk/institute-for-childrens-futures/work-with-us
+https://mmu.ac.uk/institute-for-the-creative-Industries
 https://mmu.ac.uk/institute-of-sport
 https://mmu.ac.uk/institute-of-sport/contact-the-institute-of-sport
 https://mmu.ac.uk/institute-of-sport/ecss-manchester-2027
@@ -5503,7 +5505,6 @@ https://mmu.ac.uk/study/support-for-specific-groups-of-students/mature-students
 https://mmu.ac.uk/study/support-for-specific-groups-of-students/students-caring-responsibilities-and-pregnant-students
 https://mmu.ac.uk/study/undergraduate
 https://mmu.ac.uk/study/undergraduate/acting-drama-and-performance
-https://mmu.ac.uk/study/undergraduate/after-you-have-applied
 https://mmu.ac.uk/study/undergraduate/apply/apply-late
 https://mmu.ac.uk/study/undergraduate/apply/apply-late/tabatha
 https://mmu.ac.uk/study/undergraduate/before-you-apply
@@ -5542,6 +5543,7 @@ https://mmu.ac.uk/study/undergraduate/how-to-apply/when-to-apply
 https://mmu.ac.uk/study/undergraduate/how-to-apply/writing-your-personal-statement
 https://mmu.ac.uk/study/undergraduate/it-begins-with-you
 https://mmu.ac.uk/study/undergraduate/mature-students
+https://mmu.ac.uk/study/undergraduate/offer-holder
 https://mmu.ac.uk/study/undergraduate/parents
 https://mmu.ac.uk/study/undergraduate/parents/student-living-manchester-met
 https://mmu.ac.uk/study/undergraduate/prospectus
